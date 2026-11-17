@@ -12,6 +12,20 @@
 *.msu
 *.MSU
 
+#ZIPs
+*.7z
+*.zip
+*.rar
+
+#patches
+*.bps
+*.BPS
+*.ips
+*.IPS
+
+#Releases
+*/releases/*
+
 #backups
 *.bak
 *.BAK
@@ -23,6 +37,8 @@
 */SFES/*.doc
 */SFES/*.TMP
 */SFES/*.tmp
+*/SFES/*.txt
+*.TXT
 *.CSV
 *.csv
 *.CSV#
@@ -31,13 +47,16 @@
 BLDDAT.ASM
 
 # VSCode stuff
+# Allow settings and tasks and nothing else
+!/.vscode/settings.json
+!/.vsvode/tasks.json
 */.vscode/*
 
 # Files generated during assembly
 *.CCR
 *.PCR
-SF/DATA/GFX/*.PAC
-SF/DATA/GFX/ALLCOLS.COL
+SFES/DATA/COL/*.PAC
+SFES/DATA/COL/ALLCOLS.COL
 
 # Object files
 *.sob
