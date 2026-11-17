@@ -5,6 +5,7 @@
 *.SMC
 *.srm
 *.ram
+*.rom
 */build/*
 
 #MSU stuff
